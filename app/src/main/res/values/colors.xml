@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ghost_primary">#FF1A237E</color>
+    <color name="ghost_dark">#FF0D1257</color>
+    <color name="ghost_light">#FF3949AB</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

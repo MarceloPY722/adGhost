@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ghost_dark
+color ghost_light
+color ghost_primary
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+string app_name
+style Theme.AdGhost
+style Theme.AdGhost.Splash

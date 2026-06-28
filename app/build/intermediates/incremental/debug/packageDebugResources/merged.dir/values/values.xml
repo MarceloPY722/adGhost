@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ghost_dark">#FF0D1257</color>
+    <color name="ghost_light">#FF3949AB</color>
+    <color name="ghost_primary">#FF1A237E</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">AdGhost</string>
+    <style name="Theme.AdGhost" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/ghost_dark</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+    <style name="Theme.AdGhost.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ghost_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.AdGhost</item>
+    </style>
+</resources>
