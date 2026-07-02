@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.adghost.app-mergeDebugResources-59:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.adghost.app-mergeDebugResources-60:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/home/marcelo/.gradle/caches/transforms-3/e20c1e748e27cb24706a60fab3ed0416/transformed/material3-1.1.2/res/values-en-rAU/values-en-rAU.xml",

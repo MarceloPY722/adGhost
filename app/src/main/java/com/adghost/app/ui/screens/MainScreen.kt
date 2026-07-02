@@ -1,7 +1,9 @@
 package com.adghost.app.ui.screens
 
+import android.app.Activity
 import android.content.Intent
-import android.util.Log
+import android.os.Build
+import android.util.Rational
 import android.webkit.WebView
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
@@ -18,7 +20,10 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Headphones
 import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.MusicNote
+import androidx.compose.material.icons.filled.PictureInPicture
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Share
 import androidx.compose.material3.FilledIconButton
@@ -50,7 +55,8 @@ import timber.log.Timber
 fun MainScreen(
     url: String,
     nickname: String,
-    onNavigateBack: () -> Unit
+    onNavigateBack: () -> Unit,
+    onAutoPipChanged: ((Boolean) -> Unit)? = null
 ) {
     var currentUrl by rememberSaveable { mutableStateOf(url) }
     var pageTitle by rememberSaveable { mutableStateOf(nickname) }
@@ -58,7 +64,9 @@ fun MainScreen(
     var progress by remember { mutableIntStateOf(0) }
     var webCanGoBack by remember { mutableStateOf(false) }
     var webViewRef by remember { mutableStateOf<WebView?>(null) }
+    var isAudioMode by rememberSaveable { mutableStateOf(false) }
     val context = LocalContext.current
+    val activity = context as? Activity
 
     var isFullscreen by remember { mutableStateOf(false) }
 
@@ -152,6 +160,7 @@ fun MainScreen(
             ) {
                 AdBlockWebView(
                     url = currentUrl,
+                    isAudioMode = isAudioMode,
                     onWebViewCreated = { webView ->
                         Timber.d("MainScreen", "WebView created")
                         webViewRef = webView
@@ -231,6 +240,51 @@ fun MainScreen(
                         )
                     ) {
                         Icon(Icons.Default.Refresh, contentDescription = "Recargar")
+                    }
+
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                        FilledIconButton(
+                            onClick = {
+                                Timber.d("MainScreen", "PiP clicked")
+                                activity?.let { act ->
+                                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                                        val pipParams = android.app.PictureInPictureParams.Builder()
+                                            .setAspectRatio(Rational(16, 9))
+                                            .build()
+                                        act.enterPictureInPictureMode(pipParams)
+                                    } else {
+                                        @Suppress("DEPRECATION")
+                                        act.enterPictureInPictureMode()
+                                    }
+                                }
+                            },
+                            modifier = Modifier.size(48.dp),
+                            colors = IconButtonDefaults.filledIconButtonColors(
+                                containerColor = Color.Transparent,
+                                contentColor = Color.White
+                            )
+                        ) {
+                            Icon(Icons.Default.PictureInPicture, contentDescription = "Pantalla en pantalla")
+                        }
+                    }
+
+                    FilledIconButton(
+                        onClick = {
+                            val newMode = !isAudioMode
+                            Timber.d("MainScreen", "Audio mode toggled: $newMode")
+                            isAudioMode = newMode
+                            onAutoPipChanged?.invoke(newMode)
+                        },
+                        modifier = Modifier.size(48.dp),
+                        colors = IconButtonDefaults.filledIconButtonColors(
+                            containerColor = Color.Transparent,
+                            contentColor = if (isAudioMode) Color(0xFF4FC3F7) else Color.White
+                        )
+                    ) {
+                        Icon(
+                            imageVector = if (isAudioMode) Icons.Default.MusicNote else Icons.Default.Headphones,
+                            contentDescription = if (isAudioMode) "Desactivar modo audio" else "Modo audio"
+                        )
                     }
 
                     FilledIconButton(

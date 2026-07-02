@@ -27,37 +27,38 @@ com.adghost.app-lifecycle-livedata-core-2.7.0-25 /home/marcelo/.gradle/caches/tr
 com.adghost.app-animation-core-release-26 /home/marcelo/.gradle/caches/transforms-3/864fece503ac934daeb423348b448e83/transformed/animation-core-release/res
 com.adghost.app-ui-unit-release-27 /home/marcelo/.gradle/caches/transforms-3/868fda1e56bd07da5cc571c9a816b49a/transformed/ui-unit-release/res
 com.adghost.app-lifecycle-service-2.7.0-28 /home/marcelo/.gradle/caches/transforms-3/892f3788908c2e7fbf9fa16ba99a33a6/transformed/lifecycle-service-2.7.0/res
-com.adghost.app-lifecycle-viewmodel-ktx-2.7.0-29 /home/marcelo/.gradle/caches/transforms-3/99a0ceda7a5b31e43675d93bb3cc711b/transformed/lifecycle-viewmodel-ktx-2.7.0/res
-com.adghost.app-ui-tooling-release-30 /home/marcelo/.gradle/caches/transforms-3/9b6a843e0cc5ede4305544f532123897/transformed/ui-tooling-release/res
-com.adghost.app-lifecycle-viewmodel-savedstate-2.7.0-31 /home/marcelo/.gradle/caches/transforms-3/aca27ab5518a0c1fb21b10cba587b1e9/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
-com.adghost.app-lifecycle-viewmodel-compose-2.7.0-32 /home/marcelo/.gradle/caches/transforms-3/af014887db996c09301b8a0a4b947758/transformed/lifecycle-viewmodel-compose-2.7.0/res
-com.adghost.app-ui-tooling-data-release-33 /home/marcelo/.gradle/caches/transforms-3/af0b68bb69a6a4cd0a40840e848f1cb2/transformed/ui-tooling-data-release/res
-com.adghost.app-material-ripple-release-34 /home/marcelo/.gradle/caches/transforms-3/ba9482a6493b750c15f705c2e3612c07/transformed/material-ripple-release/res
-com.adghost.app-runtime-saveable-release-35 /home/marcelo/.gradle/caches/transforms-3/bff6aab3e889d4f7d8df9e34f3876555/transformed/runtime-saveable-release/res
-com.adghost.app-lifecycle-runtime-2.7.0-36 /home/marcelo/.gradle/caches/transforms-3/c0811ff559e841342aebad900e726f1e/transformed/lifecycle-runtime-2.7.0/res
-com.adghost.app-core-splashscreen-1.0.1-37 /home/marcelo/.gradle/caches/transforms-3/c300b4f89e9515d905c27c2f20509ad9/transformed/core-splashscreen-1.0.1/res
-com.adghost.app-core-runtime-2.2.0-38 /home/marcelo/.gradle/caches/transforms-3/c420bb1138b5734b642235e867f979eb/transformed/core-runtime-2.2.0/res
-com.adghost.app-ui-graphics-release-39 /home/marcelo/.gradle/caches/transforms-3/c598ca20f5965f983e605086e850a9ba/transformed/ui-graphics-release/res
-com.adghost.app-foundation-layout-release-40 /home/marcelo/.gradle/caches/transforms-3/cae1df17c2d9f78e998d66089d687236/transformed/foundation-layout-release/res
-com.adghost.app-room-ktx-2.5.0-41 /home/marcelo/.gradle/caches/transforms-3/cd9c810abba83d2a05028f221d0eb6cd/transformed/room-ktx-2.5.0/res
-com.adghost.app-ui-util-release-42 /home/marcelo/.gradle/caches/transforms-3/da7dcef8bfffd021505baba9db0362de/transformed/ui-util-release/res
-com.adghost.app-runtime-release-43 /home/marcelo/.gradle/caches/transforms-3/daf6070c3a2060157fd349e2c79b821f/transformed/runtime-release/res
-com.adghost.app-lifecycle-livedata-core-ktx-2.7.0-44 /home/marcelo/.gradle/caches/transforms-3/dec6e206e70a2badd417f3e586e76ac5/transformed/lifecycle-livedata-core-ktx-2.7.0/res
-com.adghost.app-material3-1.1.2-45 /home/marcelo/.gradle/caches/transforms-3/e20c1e748e27cb24706a60fab3ed0416/transformed/material3-1.1.2/res
-com.adghost.app-navigation-runtime-2.7.6-46 /home/marcelo/.gradle/caches/transforms-3/e59b6b55363c756899b36c01a472fc03/transformed/navigation-runtime-2.7.6/res
-com.adghost.app-work-runtime-2.9.0-47 /home/marcelo/.gradle/caches/transforms-3/e5a20f1fc905537ac2a8b3c08e5cd9c7/transformed/work-runtime-2.9.0/res
-com.adghost.app-ui-test-manifest-1.6.0-48 /home/marcelo/.gradle/caches/transforms-3/e870c39d11391e94292e712d09da0b2c/transformed/ui-test-manifest-1.6.0/res
-com.adghost.app-lifecycle-runtime-ktx-2.7.0-49 /home/marcelo/.gradle/caches/transforms-3/e988d893da54918c8afc17e2c51734b4/transformed/lifecycle-runtime-ktx-2.7.0/res
-com.adghost.app-navigation-common-ktx-2.7.6-50 /home/marcelo/.gradle/caches/transforms-3/eb8dfc63ef50d2a35d53ab70bcb34afe/transformed/navigation-common-ktx-2.7.6/res
-com.adghost.app-navigation-compose-2.7.6-51 /home/marcelo/.gradle/caches/transforms-3/ede9122c90baefc637940624e5a4f861/transformed/navigation-compose-2.7.6/res
-com.adghost.app-annotation-experimental-1.3.0-52 /home/marcelo/.gradle/caches/transforms-3/f8f571bcc53804d47063e31e1c2b507f/transformed/annotation-experimental-1.3.0/res
-com.adghost.app-sqlite-2.3.0-53 /home/marcelo/.gradle/caches/transforms-3/fbab0c0f6a357f1004a9d278b7fae25c/transformed/sqlite-2.3.0/res
-com.adghost.app-foundation-release-54 /home/marcelo/.gradle/caches/transforms-3/fc83730aad4fd9f9c7e06d94aa18f80d/transformed/foundation-release/res
-com.adghost.app-ui-geometry-release-55 /home/marcelo/.gradle/caches/transforms-3/fccbd5c431c20d1e1febb298193ea4aa/transformed/ui-geometry-release/res
-com.adghost.app-savedstate-ktx-1.2.1-56 /home/marcelo/.gradle/caches/transforms-3/feafe4506e00f055cc53add47b9260a0/transformed/savedstate-ktx-1.2.1/res
-com.adghost.app-resValues-57 /run/media/marcelo/Disco Local/github/Webview-adblock/app/build/generated/res/resValues/debug
-com.adghost.app-packageDebugResources-58 /run/media/marcelo/Disco Local/github/Webview-adblock/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.adghost.app-packageDebugResources-59 /run/media/marcelo/Disco Local/github/Webview-adblock/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.adghost.app-merged_res-60 /run/media/marcelo/Disco Local/github/Webview-adblock/app/build/intermediates/merged_res/debug
-com.adghost.app-debug-61 /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/debug/res
-com.adghost.app-main-62 /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/res
+com.adghost.app-material-icons-extended-release-29 /home/marcelo/.gradle/caches/transforms-3/91ae2823cfdf16f192b422a63fe11f45/transformed/material-icons-extended-release/res
+com.adghost.app-lifecycle-viewmodel-ktx-2.7.0-30 /home/marcelo/.gradle/caches/transforms-3/99a0ceda7a5b31e43675d93bb3cc711b/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.adghost.app-ui-tooling-release-31 /home/marcelo/.gradle/caches/transforms-3/9b6a843e0cc5ede4305544f532123897/transformed/ui-tooling-release/res
+com.adghost.app-lifecycle-viewmodel-savedstate-2.7.0-32 /home/marcelo/.gradle/caches/transforms-3/aca27ab5518a0c1fb21b10cba587b1e9/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.adghost.app-lifecycle-viewmodel-compose-2.7.0-33 /home/marcelo/.gradle/caches/transforms-3/af014887db996c09301b8a0a4b947758/transformed/lifecycle-viewmodel-compose-2.7.0/res
+com.adghost.app-ui-tooling-data-release-34 /home/marcelo/.gradle/caches/transforms-3/af0b68bb69a6a4cd0a40840e848f1cb2/transformed/ui-tooling-data-release/res
+com.adghost.app-material-ripple-release-35 /home/marcelo/.gradle/caches/transforms-3/ba9482a6493b750c15f705c2e3612c07/transformed/material-ripple-release/res
+com.adghost.app-runtime-saveable-release-36 /home/marcelo/.gradle/caches/transforms-3/bff6aab3e889d4f7d8df9e34f3876555/transformed/runtime-saveable-release/res
+com.adghost.app-lifecycle-runtime-2.7.0-37 /home/marcelo/.gradle/caches/transforms-3/c0811ff559e841342aebad900e726f1e/transformed/lifecycle-runtime-2.7.0/res
+com.adghost.app-core-splashscreen-1.0.1-38 /home/marcelo/.gradle/caches/transforms-3/c300b4f89e9515d905c27c2f20509ad9/transformed/core-splashscreen-1.0.1/res
+com.adghost.app-core-runtime-2.2.0-39 /home/marcelo/.gradle/caches/transforms-3/c420bb1138b5734b642235e867f979eb/transformed/core-runtime-2.2.0/res
+com.adghost.app-ui-graphics-release-40 /home/marcelo/.gradle/caches/transforms-3/c598ca20f5965f983e605086e850a9ba/transformed/ui-graphics-release/res
+com.adghost.app-foundation-layout-release-41 /home/marcelo/.gradle/caches/transforms-3/cae1df17c2d9f78e998d66089d687236/transformed/foundation-layout-release/res
+com.adghost.app-room-ktx-2.5.0-42 /home/marcelo/.gradle/caches/transforms-3/cd9c810abba83d2a05028f221d0eb6cd/transformed/room-ktx-2.5.0/res
+com.adghost.app-ui-util-release-43 /home/marcelo/.gradle/caches/transforms-3/da7dcef8bfffd021505baba9db0362de/transformed/ui-util-release/res
+com.adghost.app-runtime-release-44 /home/marcelo/.gradle/caches/transforms-3/daf6070c3a2060157fd349e2c79b821f/transformed/runtime-release/res
+com.adghost.app-lifecycle-livedata-core-ktx-2.7.0-45 /home/marcelo/.gradle/caches/transforms-3/dec6e206e70a2badd417f3e586e76ac5/transformed/lifecycle-livedata-core-ktx-2.7.0/res
+com.adghost.app-material3-1.1.2-46 /home/marcelo/.gradle/caches/transforms-3/e20c1e748e27cb24706a60fab3ed0416/transformed/material3-1.1.2/res
+com.adghost.app-navigation-runtime-2.7.6-47 /home/marcelo/.gradle/caches/transforms-3/e59b6b55363c756899b36c01a472fc03/transformed/navigation-runtime-2.7.6/res
+com.adghost.app-work-runtime-2.9.0-48 /home/marcelo/.gradle/caches/transforms-3/e5a20f1fc905537ac2a8b3c08e5cd9c7/transformed/work-runtime-2.9.0/res
+com.adghost.app-ui-test-manifest-1.6.0-49 /home/marcelo/.gradle/caches/transforms-3/e870c39d11391e94292e712d09da0b2c/transformed/ui-test-manifest-1.6.0/res
+com.adghost.app-lifecycle-runtime-ktx-2.7.0-50 /home/marcelo/.gradle/caches/transforms-3/e988d893da54918c8afc17e2c51734b4/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.adghost.app-navigation-common-ktx-2.7.6-51 /home/marcelo/.gradle/caches/transforms-3/eb8dfc63ef50d2a35d53ab70bcb34afe/transformed/navigation-common-ktx-2.7.6/res
+com.adghost.app-navigation-compose-2.7.6-52 /home/marcelo/.gradle/caches/transforms-3/ede9122c90baefc637940624e5a4f861/transformed/navigation-compose-2.7.6/res
+com.adghost.app-annotation-experimental-1.3.0-53 /home/marcelo/.gradle/caches/transforms-3/f8f571bcc53804d47063e31e1c2b507f/transformed/annotation-experimental-1.3.0/res
+com.adghost.app-sqlite-2.3.0-54 /home/marcelo/.gradle/caches/transforms-3/fbab0c0f6a357f1004a9d278b7fae25c/transformed/sqlite-2.3.0/res
+com.adghost.app-foundation-release-55 /home/marcelo/.gradle/caches/transforms-3/fc83730aad4fd9f9c7e06d94aa18f80d/transformed/foundation-release/res
+com.adghost.app-ui-geometry-release-56 /home/marcelo/.gradle/caches/transforms-3/fccbd5c431c20d1e1febb298193ea4aa/transformed/ui-geometry-release/res
+com.adghost.app-savedstate-ktx-1.2.1-57 /home/marcelo/.gradle/caches/transforms-3/feafe4506e00f055cc53add47b9260a0/transformed/savedstate-ktx-1.2.1/res
+com.adghost.app-resValues-58 /run/media/marcelo/Disco Local/github/Webview-adblock/app/build/generated/res/resValues/debug
+com.adghost.app-packageDebugResources-59 /run/media/marcelo/Disco Local/github/Webview-adblock/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.adghost.app-packageDebugResources-60 /run/media/marcelo/Disco Local/github/Webview-adblock/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.adghost.app-merged_res-61 /run/media/marcelo/Disco Local/github/Webview-adblock/app/build/intermediates/merged_res/debug
+com.adghost.app-debug-62 /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/debug/res
+com.adghost.app-main-63 /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/res

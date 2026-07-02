@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.adghost.app-mergeDebugResources-59:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.adghost.app-mergeDebugResources-60:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/home/marcelo/.gradle/caches/transforms-3/8151f46635f8608f3361f61f93b647c0/transformed/ui-release/res/values-pt-rBR/values-pt-rBR.xml",

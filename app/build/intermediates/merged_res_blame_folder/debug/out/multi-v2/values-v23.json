@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.adghost.app-mergeDebugResources-59:/values-v23/values-v23.xml",
+            "outputFile": "com.adghost.app-mergeDebugResources-60:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/home/marcelo/.gradle/caches/transforms-3/e5a20f1fc905537ac2a8b3c08e5cd9c7/transformed/work-runtime-2.9.0/res/values-v23/values-v23.xml",

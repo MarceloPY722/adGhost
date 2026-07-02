@@ -11,14 +11,19 @@ import android.webkit.WebView
 import android.widget.FrameLayout
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
 import com.adghost.app.webview.AdBlockWebViewClient
+import com.adghost.app.webview.JsInjector
 
 @SuppressLint("SetJavaScriptEnabled")
 @Composable
 fun AdBlockWebView(
     url: String,
+    isAudioMode: Boolean = false,
     modifier: Modifier = Modifier,
     onWebViewCreated: (WebView) -> Unit = {},
     onProgressChanged: (progress: Int) -> Unit = {},
@@ -28,6 +33,19 @@ fun AdBlockWebView(
     onCanGoForwardChanged: (Boolean) -> Unit = {},
     onFullscreenChanged: (Boolean) -> Unit = {}
 ) {
+    val webViewRef = remember { mutableStateOf<WebView?>(null) }
+
+    LaunchedEffect(isAudioMode) {
+        val wv = webViewRef.value
+        if (wv != null && wv.url != null && wv.url!!.isNotEmpty()) {
+            if (isAudioMode) {
+                wv.evaluateJavascript(JsInjector.getAudioModeScript(), null)
+            } else {
+                wv.evaluateJavascript(JsInjector.getVideoModeScript(), null)
+            }
+        }
+    }
+
     AndroidView(
         modifier = modifier.fillMaxSize(),
         factory = { context ->
@@ -59,6 +77,7 @@ fun AdBlockWebView(
                     allowFileAccess = false
                     allowContentAccess = false
                     javaScriptCanOpenWindowsAutomatically = false
+                    mediaPlaybackRequiresUserGesture = false
                 }
                 webViewClient = AdBlockWebViewClient(
                     onPageStarted = { onUrlChanged(it ?: "") },
@@ -126,6 +145,7 @@ fun AdBlockWebView(
 
             fullscreenContainer.addView(webView, 0)
             webView.loadUrl(url)
+            webViewRef.value = webView
             onWebViewCreated(webView)
             fullscreenContainer
         },

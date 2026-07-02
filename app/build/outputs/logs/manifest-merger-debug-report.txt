@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.webkit:webkit:1.9.0] /home/marcelo/.gradle/caches/transforms-3/79d8796476f8ccbecce48a171a35d7b9/transformed/webkit-1.9.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/marcelo/.gradle/caches/transforms-3/3a36dac443a5729f8e25a6a2abb71879/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.work:work-runtime:2.9.0] /home/marcelo/.gradle/caches/transforms-3/e5a20f1fc905537ac2a8b3c08e5cd9c7/transformed/work-runtime-2.9.0/AndroidManifest.xml:17:1-145:12
@@ -17,6 +17,7 @@ MERGED from [androidx.activity:activity:1.8.2] /home/marcelo/.gradle/caches/tran
 MERGED from [androidx.activity:activity-ktx:1.8.2] /home/marcelo/.gradle/caches/transforms-3/46b1e779e36541f6b63e5a9150272094/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-ripple-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/ba9482a6493b750c15f705c2e3612c07/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/2e616e5bef2ac9ea4e032ad6afec8814/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/91ae2823cfdf16f192b422a63fe11f45/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/788358731a4edb1f7705cf40ec1e0137/transformed/material-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.animation:animation-core-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/864fece503ac934daeb423348b448e83/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.animation:animation-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/0f25546f313af8ee6e64d2db23960f85/transformed/animation-release/AndroidManifest.xml:2:1-7:12
@@ -87,8 +88,8 @@ MERGED from [androidx.work:work-runtime:2.9.0] /home/marcelo/.gradle/caches/tran
 	android:name
 		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:8:5-29:19
-INJECTED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:8:5-29:19
+ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:8:5-30:19
+INJECTED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:8:5-30:19
 MERGED from [androidx.work:work-runtime:2.9.0] /home/marcelo/.gradle/caches/transforms-3/e5a20f1fc905537ac2a8b3c08e5cd9c7/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.work:work-runtime:2.9.0] /home/marcelo/.gradle/caches/transforms-3/e5a20f1fc905537ac2a8b3c08e5cd9c7/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] /home/marcelo/.gradle/caches/transforms-3/e870c39d11391e94292e712d09da0b2c/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:22:5-26:19
@@ -134,25 +135,27 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/marcelo/.gradle/cache
 	android:name
 		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:9:9-35
 activity#com.adghost.app.MainActivity
-ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:19:9-28:20
+ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:19:9-29:20
 	android:exported
 		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:21:13-36
+	android:supportsPictureInPicture
+		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:22:13-52
 	android:configChanges
-		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:22:13-87
+		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:23:13-87
 	android:theme
-		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:23:13-49
+		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:24:13-49
 	android:name
 		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:20:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:24:13-27:29
+ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml:27:27-74
 uses-sdk
 INJECTED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /run/media/marcelo/Disco Local/github/Webview-adblock/app/src/main/AndroidManifest.xml
@@ -183,6 +186,8 @@ MERGED from [androidx.compose.material:material-ripple-android:1.6.0] /home/marc
 MERGED from [androidx.compose.material:material-ripple-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/ba9482a6493b750c15f705c2e3612c07/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/2e616e5bef2ac9ea4e032ad6afec8814/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/2e616e5bef2ac9ea4e032ad6afec8814/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/91ae2823cfdf16f192b422a63fe11f45/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/91ae2823cfdf16f192b422a63fe11f45/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/788358731a4edb1f7705cf40ec1e0137/transformed/material-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/788358731a4edb1f7705cf40ec1e0137/transformed/material-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-core-android:1.6.0] /home/marcelo/.gradle/caches/transforms-3/864fece503ac934daeb423348b448e83/transformed/animation-core-release/AndroidManifest.xml:5:5-44

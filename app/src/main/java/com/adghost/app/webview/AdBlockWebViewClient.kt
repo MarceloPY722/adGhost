@@ -13,6 +13,19 @@ class AdBlockWebViewClient(
     private val onProgressChanged: (progress: Int) -> Unit = {}
 ) : WebViewClient() {
 
+    private val whitelistDomains = listOf(
+        "googlevideo.com",
+        "youtube.com",
+        "ytimg.com",
+        "ggpht.com",
+        "googleusercontent.com",
+        "youtu.be"
+    )
+
+    private fun isWhitelisted(url: String): Boolean {
+        return whitelistDomains.any { url.contains(it) }
+    }
+
     override fun onPageStarted(view: WebView?, url: String?, favicon: android.graphics.Bitmap?) {
         super.onPageStarted(view, url, favicon)
         onPageStarted(url)
@@ -22,14 +35,17 @@ class AdBlockWebViewClient(
         super.onPageFinished(view, url)
         onPageFinished(url)
         view?.let { v ->
-            v.evaluateJavascript(JsInjector.getEmergencyBlocker(), null)
-            v.evaluateJavascript(JsInjector.getAdBlockScript(), null)
-            v.evaluateJavascript(JsInjector.getCssHidingScript(), null)
+            if (url != null && !isWhitelisted(url)) {
+                v.evaluateJavascript(JsInjector.getEmergencyBlocker(), null)
+                v.evaluateJavascript(JsInjector.getAdBlockScript(), null)
+                v.evaluateJavascript(JsInjector.getCssHidingScript(), null)
+            }
         }
     }
 
     override fun shouldInterceptRequest(view: WebView?, request: WebResourceRequest?): WebResourceResponse? {
         val url = request?.url?.toString() ?: return null
+        if (isWhitelisted(url)) return null
         val sourceUrl = ""
         if (NativeAdBlockEngine.shouldBlockRequest(url, sourceUrl)) {
             return WebResourceResponse("text/plain", "utf-8", ByteArrayInputStream(ByteArray(0)))
@@ -40,6 +56,7 @@ class AdBlockWebViewClient(
     @Deprecated("Deprecated in Java")
     override fun shouldInterceptRequest(view: WebView?, url: String?): WebResourceResponse? {
         val urlStr = url ?: return null
+        if (isWhitelisted(urlStr)) return null
         if (NativeAdBlockEngine.shouldBlockRequest(urlStr, "")) {
             return WebResourceResponse("text/plain", "utf-8", ByteArrayInputStream(ByteArray(0)))
         }
